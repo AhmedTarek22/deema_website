@@ -1,7 +1,9 @@
 1- [x] Navbar
 2- [x] Home Page
-3- [] About Us
-4- [] 
+3- [x] About Us
+4- [x] Why Choose
+5- [x]  Services
+6- [] Contact Us
 
 
 DEEMA Website Structure & Content
@@ -146,6 +148,3 @@ Lazy Loading for Images to improve performance.
 ---
 
 This structure ensures a professional, scalable, and SEO-friendly website for DEEMA. Let me know if you need any modifications before proceeding to development.
-
-
-////////
