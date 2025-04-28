@@ -83,6 +83,8 @@ const EN = {
   Inquiry: "Inquiry",
   Your_Inquiry: "Your Inquiry",
   Submit: "Submit",
+  is_required: "is required",
+  Valid_Email: "Please enter a valid email",
 };
 
 export default EN;

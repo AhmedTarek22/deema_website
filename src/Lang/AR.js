@@ -80,6 +80,8 @@ const AR = {
   Inquiry: "استفسار",
   Your_Inquiry: "استفسارك",
   Submit: "إرسال",
+  is_required: "مطلوب",
+  Valid_Email: "الرجاء إدخال بريد إلكتروني صالح",
 };
 
 export default AR;

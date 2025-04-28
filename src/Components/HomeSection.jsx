@@ -6,7 +6,7 @@ const HomeSection = () => {
   return (
     <section id="home" className="mt-[90px] h-[80vh]">
       <figure className="h-full w-full">
-        <img className="h-full w-full" src="bg.jpeg" alt="bg" />
+        <img loading="lazy" className="h-full w-full" src="bg.jpeg" alt="bg" />
       </figure>
       <div className="absolute left-0 top-1/2 flex w-1/2 -translate-y-1/2 justify-end bg-[rgb(15,116,143,0.7)] p-[50px] text-white">
         <div>

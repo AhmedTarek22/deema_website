@@ -173,7 +173,9 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <ul
           className={`${
-            isOpen ? "absolute left-0 top-full w-full shadow-md" : "hidden"
+            isOpen
+              ? "absolute left-0 top-full w-full bg-zinc-50 shadow-md"
+              : "hidden"
           } flex flex-col md:hidden`}
         >
           {navLinks.map((link, index) => (
