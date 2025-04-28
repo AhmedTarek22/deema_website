@@ -16,28 +16,29 @@ const ContactUs = () => {
   const handleInquiryData = (e) => {
     const name = e.target.name;
     const value = e.target.value;
+    const newErrors = {};
+
     if (name === "name") {
       setInquiryData({ ...inquiryData, name: value });
+      if (!value.trim()) {
+        newErrors.name = translate.Name + " " + translate.is_required;
+      }
     }
     if (name === "email") {
       setInquiryData({ ...inquiryData, email: value });
+      if (!value.trim()) {
+        newErrors.email = translate.Email + " " + translate.is_required;
+      } else if (!/^\S+@\S+\.\S+$/.test(inquiryData.email)) {
+        newErrors.email = translate.Valid_Email;
+      }
     }
     if (name === "inquiry") {
       setInquiryData({ ...inquiryData, inquiry: value });
+      if (!value.trim()) {
+        newErrors.inquiry = translate.Inquiry + " " + translate.is_required;
+      }
     }
-    
-    const newErrors = {};
-    if (!inquiryData.name.trim()) {
-      newErrors.name = translate.Name_Required || "Name is required";
-    }
-    if (!inquiryData.email.trim()) {
-      newErrors.email = translate.Email_Required || "Email is required";
-    } else if (!/^\S+@\S+\.\S+$/.test(inquiryData.email)) {
-      newErrors.email = translate.Valid_Email || "Please enter a valid email";
-    }
-    if (!inquiryData.inquiry.trim()) {
-      newErrors.inquiry = translate.Inquiry_Required || "Inquiry is required";
-    }
+
     setErrors(newErrors);
   };
 
