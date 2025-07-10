@@ -58,19 +58,18 @@ const ContactUs = () => {
   return (
     <section id="contact-us" className="bg-white px-4 py-12 md:px-12">
       <h2 className="text-center text-3xl font-bold text-blue-900">
-        {translate.ourServices}
+        {translate.ContactUs}
       </h2>
       <div className="mx-auto mt-8 max-w-6xl space-y-12">
         {/* Contact Information */}
-        <div className="rounded-2xl border-l-4 border-cyan-700 bg-gray-50 p-6 shadow-md">
+        {/* <div className="rounded-2xl border-l-4 border-cyan-700 bg-gray-50 p-6 shadow-md">
           <h2 className="mb-4 text-3xl font-bold text-blue-900">
             {translate.contactInformation}
           </h2>
           <p className="leading-relaxed text-gray-700">
-            {/* You can add more contact information here */}
             You can reach us through the following methods:
           </p>
-        </div>
+        </div> */}
         {/* Social Media Links */}
         <div className="rounded-2xl border-l-4 border-green-500 bg-gray-50 p-6 shadow-md">
           <h3 className="mb-2 text-2xl font-semibold text-green-700">

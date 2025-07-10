@@ -11,9 +11,9 @@ const AboutUs = () => {
       <div className="mx-auto max-w-6xl space-y-12">
         {/* Our Story */}
         <div>
-          <h2 className="mb-4 text-3xl font-bold text-blue-900">
+          {/* <h2 className="mb-4 text-3xl font-bold text-blue-900">
             {translate.OurStory}
-          </h2>
+          </h2> */}
           <p className="text-lg leading-relaxed text-gray-700">
             {translate.OurStoryDescription}
           </p>
