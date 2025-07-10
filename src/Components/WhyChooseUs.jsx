@@ -65,7 +65,7 @@ const WhyChooseUs = () => {
             >
               <div className="flex items-start gap-4">
                 <FaCheckCircle
-                  className={`text-xl ${item.color} min-h-[1rem] min-w-[1rem] flex-shrink-0`}
+                  className={`text-xl ${item.color} min-h-[1rem] min-w-[1rem] flex-shrink-0 mt-[6px]`}
                 />
                 <div>
                   <h4 className="text-xl font-semibold text-gray-800">
