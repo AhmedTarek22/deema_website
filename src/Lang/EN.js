@@ -12,7 +12,11 @@ const EN = {
   Media: "Media",
   Awards: "Awards",
   ContactUs: "Contact us",
+  Store: "Store",
   //// Home
+  hero_main_headline: "Your Imagination, Our 3D Creation",
+  hero_sub_headline:
+    "Deema is a leading Egyptian company specializing in 3D printing services — turning your ideas into reality, layer by layer 🌟",
   home_main_Headline: "Empowering Your 3D Creations with Premium Filaments",
   home_SubHeading:
     "High-quality, precision-engineered 3D printing filaments and services tailored for makers and businesses.",

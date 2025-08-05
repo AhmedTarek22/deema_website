@@ -83,12 +83,12 @@ const HomeSection = () => {
         animate={{ scale: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
-        <img
+        {/* <img
           loading="lazy"
           src="bg.jpeg"
           alt="background"
           className="h-full w-full object-cover"
-        />
+        /> */}
       </motion.figure>
 
       {/* المحتوى */}
