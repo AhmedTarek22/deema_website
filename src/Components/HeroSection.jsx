@@ -6,11 +6,17 @@ const HeroSection = () => {
   return (
     <div
       id="home"
-      className="relative mt-[70px] h-[50vh] overflow-hidden md:h-[90vh]"
+      className="relative bg-[#FBFBFB] mt-[70px] h-[50vh] overflow-hidden md:h-[90vh]"
     >
       <div className="flex items-center justify-between gap-16 px-12">
         <div className="w-1/2">
-          <h2 className="h-[202px] w-[609px] text-[64px]">
+          <h2
+            className="h-[202px] w-[609px] bg-clip-text font-aldrich text-[64px] leading-[1.1] text-transparent"
+            style={{
+              backgroundImage:
+                "linear-gradient(to right, #F7883B, #6C2D60, #37428C, #1B6AB2)",
+            }}
+          >
             {translate.hero_main_headline}
           </h2>
           <p className="w-[585px] text-xl tracking-[0.04em] opacity-[63%]">
