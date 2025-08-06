@@ -1,4 +1,5 @@
 import AboutUs from "./Components/AboutUs";
+import AboutUsSection from "./Components/AboutUsSection";
 import ContactUs from "./Components/ContactUs";
 import HeroSection from "./Components/HeroSection";
 import HomeSection from "./Components/HomeSection";
@@ -11,10 +12,11 @@ function App() {
     <div className="scroll-smooth">
       <Navbar />
       <HeroSection />
+      <AboutUsSection />
       {/* <HomeSection /> */}
-      <AboutUs />
-      <WhyChooseUs />
-      <ServicesSection />
+      {/* <AboutUs /> */}
+      {/* <WhyChooseUs /> */}
+      {/* <ServicesSection /> */}
       <ContactUs />
     </div>
   );
