@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         aldrich: ["Aldrich", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },
