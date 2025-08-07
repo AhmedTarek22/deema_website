@@ -6,6 +6,7 @@ import HeroSection from "./Components/HeroSection";
 import HomeSection from "./Components/HomeSection";
 import Navbar from "./Components/Navbar";
 import ServicesSection from "./Components/ServicesSection";
+import StoreSection from "./Components/StoreSection";
 import WhyChooseUs from "./Components/WhyChooseUs";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       {/* <WhyChooseUs /> */}
       {/* <ServicesSection /> */}
       {/* <ContactUs /> */}
+      <StoreSection />
       <ContactUsSection />
     </div>
   );

@@ -4,7 +4,7 @@ const ContactUsSection = () => {
   const translate = useSelector((state) => state.language.translation);
 
   return (
-    <div className="bg-[#FBFBFB] px-12 py-10">
+    <div id="contact-us" className="bg-[#FBFBFB] px-12 py-10">
       <div className="h-[1px] w-full bg-[#3C3C43AD]" />
       <div className="grid grid-cols-2 py-6">
         {/* Logo and links social */}
@@ -36,19 +36,31 @@ const ContactUsSection = () => {
           {/* Quick Links */}
           <div>
             <h4 className="text-xl">{translate.Quick_Links}</h4>
-            <ul className="mt-4 space-y-1 text-[#5B2C52]">
-              <li>{translate.Home}</li>
-              <li>{translate.AboutUs}</li>
-              <li>{translate.Store}</li>
+            <ul className="mt-4 cursor-pointer space-y-1 text-[#5B2C52]">
+              <li>
+                <a href="#home">{translate.Home}</a>
+              </li>
+              <li>
+                <a href="#about-us">{translate.AboutUs}</a>
+              </li>
+              <li>
+                <a href="#store">{translate.Store}</a>
+              </li>
             </ul>
           </div>
           {/* Contact Us */}
           <div>
             <h4 className="text-xl">{translate.ContactUs}</h4>
-            <ul className="mt-4 space-y-1 text-[#5B2C52]">
-              <li>{translate.Technical_Support}</li>
-              <li>{translate.After_Sales_Support}</li>
-              <li>{translate.Guidance_Consultation}</li>
+            <ul className="mt-4 cursor-pointer space-y-1 text-[#5B2C52]">
+              <li>
+                <a>{translate.Technical_Support}</a>
+              </li>
+              <li>
+                <a>{translate.After_Sales_Support}</a>
+              </li>
+              <li>
+                <a>{translate.Guidance_Consultation}</a>
+              </li>
             </ul>
           </div>
           {/* Communication */}
