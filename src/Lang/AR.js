@@ -86,6 +86,11 @@ const AR = {
   Submit: "إرسال",
   is_required: "مطلوب",
   Valid_Email: "الرجاء إدخال بريد إلكتروني صالح",
+  //// Footer
+  Quick_Links: "روابط سريعة",
+  Technical_Support: "الدعم الفني",
+  After_Sales_Support: "دعم ما بعد البيع",
+  Guidance_Consultation: "التوجيه والاستشارات",
 };
 
 export default AR;

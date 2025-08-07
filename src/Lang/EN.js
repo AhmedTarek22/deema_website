@@ -89,6 +89,11 @@ const EN = {
   Submit: "Submit",
   is_required: "is required",
   Valid_Email: "Please enter a valid email",
+  //// Footer
+  Quick_Links: "Quick Links",
+  Technical_Support:"Technical Support",
+  After_Sales_Support: "After-Sales Support",
+  Guidance_Consultation: "Guidance & Consultation",
 };
 
 export default EN;
