@@ -1,6 +1,7 @@
 import AboutUs from "./Components/AboutUs";
 import AboutUsSection from "./Components/AboutUsSection";
 import ContactUs from "./Components/ContactUs";
+import ContactUsSection from "./Components/ContactUsSection";
 import HeroSection from "./Components/HeroSection";
 import HomeSection from "./Components/HomeSection";
 import Navbar from "./Components/Navbar";
@@ -17,7 +18,8 @@ function App() {
       {/* <AboutUs /> */}
       {/* <WhyChooseUs /> */}
       {/* <ServicesSection /> */}
-      <ContactUs />
+      {/* <ContactUs /> */}
+      <ContactUsSection />
     </div>
   );
 }
