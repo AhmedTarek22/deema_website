@@ -6,9 +6,9 @@ const HeroSection = () => {
   return (
     <div
       id="home"
-      className="relative bg-[#FBFBFB] mt-[70px] h-[50vh] overflow-hidden md:h-[90vh]"
+      className="relative mt-[70px] overflow-hidden bg-[#FBFBFB] px-12  py-10"
     >
-      <div className="flex items-center justify-between gap-16 px-12">
+      <div className="flex items-center justify-between gap-16">
         <div className="w-1/2">
           <h2
             className="h-[202px] w-[609px] bg-clip-text font-aldrich text-[64px] leading-[1.1] text-transparent"
@@ -23,8 +23,9 @@ const HeroSection = () => {
             {translate.hero_sub_headline}
           </p>
         </div>
-        <figure className="h-[640px] w-[640px]">
+        <figure className="relative h-[640px] w-[640px]">
           <img src="hero-img.png" alt="hero-img" />
+          <div className="absolute bottom-4 start-1/2 h-[18px] w-[264px] bg-[#3C3C433B] blur-[16px]"></div>
         </figure>
       </div>
     </div>
